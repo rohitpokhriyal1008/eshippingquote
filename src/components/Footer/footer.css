@@ -1,0 +1,95 @@
+.footer {
+  display: flex;
+  width: 100%;
+  background-color: #4fa8c2;
+  padding: 45px var(--general-side-spacing) 30px;
+  gap: 55px;
+}
+.footer-stick-to-bottom {
+  position: absolute;
+  bottom: 0;
+}
+.footer-icon {
+  height: 100%;
+  padding-left: 40px;
+}
+.footer-icon > img {
+  height: auto;
+  width: var(--logo-width);
+  transform: scale(1.6);
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-x: hidden;
+  padding: 0px 30px;
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.footer-list p {
+  margin-bottom: 1rem;
+  cursor: pointer;
+  display: inline-block;
+  width: fit-content;
+}
+.footer-list > p:nth-child(1) {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow-x: hidden;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  flex-grow: 1;
+  padding-right: 50px;
+}
+.footer-social p {
+  margin-bottom: 1rem;
+}
+.contact-div {
+  display: flex;
+  align-items: center;
+}
+.contact-div > input {
+  padding: 8px 10px 8px 20px;
+  flex-grow: 1;
+  margin-right: 27px;
+  background: #ebf0f5;
+  border: 2px solid #4fa8c2;
+  border-radius: 4px;
+  height: 100%;
+  height: 42px;
+}
+.contact-div > input::placeholder {
+  position: relative;
+  left: -9px;
+  letter-spacing: 0.15px;
+  color: #555f6a;
+}
+.contact-div > button {
+  padding: 0px 20px;
+  height: 40px;
+  border-radius: 2px;
+}
+
+.social-icons-tray {
+  margin: 15px 0px;
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+.social-icons-tray > div > img {
+  height: 45px;
+  width: 45px;
+}
+.footer-social > .social-icons-tray {
+  flex-grow: 1;
+  margin-bottom: 0px;
+}

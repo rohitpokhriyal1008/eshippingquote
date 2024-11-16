@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+section {
+  padding: 0rem 0;
+}
+
+h1 {
+  text-align: inherit !important;
+  font-weight: 700 !important;
+  font-size: 6.2rem !important;
+  line-height: 1 !important;
+  color: #0e3889 !important;
+}
+
+section h2 {
+  font-weight: 700;
+  font-size: 4.5rem;
+  color: #0e3889;
+  line-height: 1.36;
+  margin-bottom: 3.2rem;
+}
+
+section h3 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #0e3889;
+}
+
+section p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #4a4a4a;
+  line-height: 1.5;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 0 5rem;
+}
+
+.large-div {
+  width: 56%;
+}
+
+.small-div {
+  width: 41%;
+}
+
+.equal-divs {
+  width: 50%;
+}
+
+.img-cont img {
+  width: 100%;
+}
+
+.section-hero {
+  background-color: #f5f9fe;
+}
+
+.section-hero h3 {
+  margin: 2.3rem 0;
+}
+
+
+.section-hero button:hover {
+  background-color: #fb3636;
+  cursor: pointer;
+}
+
+
+.section-hero button {
+  margin-top: 4rem;
+  border: none;
+  font-size: 1.6rem;
+  font-size: 1.6rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: var(--general-top-spacing) 4rem;
+  background-color: #ff6767;
+  border-radius: 0.3rem;
+}
+
+.section-about {
+  background-color: #f5f9fe;
+}
+
+.section-procedure h3 {
+  margin-bottom: 0.4rem;
+}
+
+.steps-cont {
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+}
+
+.procedure-step {
+  display: flex;
+  gap: 4rem;
+}
+
+.get-started-btn {
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 60%;
+  }
+
+  .container {
+    padding: 0 2.4rem;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .small-div,
+  .equal-divs {
+    width: 100%;
+    text-align: center;
+  }
+
+  .steps-cont {
+    text-align: left;
+  }
+
+  .large-div {
+    width: 80%;
+  }
+
+  .img-cont {
+    margin: 0 auto;
+  }
+
+  .section-procedure .img-cont img {
+    margin: 3.2rem 0;
+  }
+
+  .procedure-step {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 70%;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 0 4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 60%;
+  }
+
+  .large-div {
+    width: 100%;
+  }
+
+  section h1 {
+    font-size: 4.8rem;
+  }
+
+  section h2 {
+    margin-bottom: 0;
+    font-size: 3.6rem;
+  }
+
+  section p {
+    line-height: 1.6;
+  }
+
+  .section-hero button {
+    width: 100%;
+  }
+
+  .procedure-step {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 340px) {
+  html {
+    font-size: 40%;
+  }
+}

@@ -1,0 +1,50 @@
+.mobile-header {
+  height: 7.2rem;
+  display: flex;
+  background-color: #f5f9fe;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toggle-icon-cont {
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+.toggle-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.actions {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.actions .btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+  font-size: 1.2rem;
+}
+
+.login-btn {
+  color: #212529;
+}
+
+.start-btn {
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+  background-color: #ff6767;
+}
+
+.logo-cont-auth {
+  margin-right: 2rem;
+  margin-left: 1.6rem;
+}

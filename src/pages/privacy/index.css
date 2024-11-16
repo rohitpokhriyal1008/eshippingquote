@@ -1,0 +1,66 @@
+.privacy {
+    padding: 4rem;
+}
+
+.privacy section {
+    font-size: 1.5rem;
+}
+
+.privacy h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: "Open sans";
+    color: #000;
+}
+
+.privacy h5 {
+    text-align: center;
+    color: #0266ff;
+    font-family: "Open sans";
+}
+
+.privacy a {
+    color: #000;
+}
+
+.privacy a:hover {
+  color: #0266ff;
+}
+
+.privacy h3 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.privacy .table {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.privacy .tr {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.privacy .td {
+  display: flex;
+  border: 1px solid black;
+  justify-content: flex-start;
+  padding: 15px;
+  overflow: auto;
+}
+
+.privacy .td-cat {
+  width: 22%;
+}
+
+.privacy .td-ex {
+  width: 54%;
+}
+
+.privacy .td-coll {
+  width: 22%;
+  justify-content: center !important;
+}

@@ -1,0 +1,32 @@
+.error-page-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 69px - 127.743px);
+}
+
+.error-page-container > h1 {
+  color: #0F6EFF;
+  font-size: 150px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.25px;
+  margin: 10px;
+}
+.error-page-container > h3 {
+  color: var(--secondary-theme-color);
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.25px;
+  margin: 0;
+  margin-bottom: 25px;
+  position: relative;
+  top: -30px;
+}
+.error-page-container > button {
+  border-radius: 20px;
+  min-width: 100px;
+}

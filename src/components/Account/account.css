@@ -1,0 +1,111 @@
+.account-container {
+  width: 100%;
+  padding: 40px 20px 70px;
+  display: flex;
+  justify-content: center;
+}
+.account-update-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+
+input:disabled {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  color: black !important;
+}
+
+.table-row {
+  cursor: auto !important;
+}
+
+.account-update-container--mobile-view {
+  width: 100%;
+}
+
+.account-user-table-container {
+  width: 60%;
+  border-left: 1px solid #9cadc0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: calc(100vh - 8rem);
+}
+
+.account-user-table-container .table-search,
+.account-user-table-container .table-pagination-controller {
+  display: none;
+}
+.account-user-table-container--mobile-view {
+  width: 100% !important;
+  border-left: none;
+}
+
+.account-user-table-container > h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0;
+}
+.account-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 65%;
+  border-radius: 3px;
+}
+.account-form > h2 {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  margin: 0;
+}
+
+.account-form > .form-field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 7px 0px;
+}
+.account-form > .form-field > span {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.account-form > .form-field > input {
+  padding: 18px 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: #F5F5F5;
+}
+
+.account-form > .form-field > button {
+  padding: 15px 10px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+.account-form > .form-field > button.red-theme {
+  background-color: #e73e3e;
+}
+.account-user-table-container > .btn-tray {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.account-user-table-container > .btn-tray > button {
+  font-size: 13px;
+  padding: 15px 100px;
+}
+
+@media (max-width: 500px) {
+  .account-form {
+    width: 90%;
+  }
+}

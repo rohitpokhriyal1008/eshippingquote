@@ -1,0 +1,103 @@
+.header {
+  padding: 2.4rem 4rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid var(--primary-theme-color);
+}
+
+.header-icon {
+  padding: 0px 40px;
+  height: 100%;
+  transform: scale(1.8);
+}
+.header-icon > img {
+  height: 100%;
+  margin-top: 3px;
+  width: var(--logo-width);
+  cursor: pointer;
+}
+
+.header-navigation {
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.header-navigation > button {
+  color: black;
+  letter-spacing: 0.25px;
+  font-size: 13px;
+}
+.header-navigation > .btn-selected {
+  color: var(--primary-theme-color);
+}
+.header-user-account {
+  height: 100%;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 10px; */
+}
+.header-user-account > button {
+  margin: 0px 10px;
+}
+
+/* account banner css */
+.account-banner {
+  position: relative;
+  z-index: 1;
+}
+.account-banner > button {
+  width: 100%;
+  padding: 10px 37px;
+  display: flex;
+  align-items: center;
+}
+.account-banner > button > img {
+  position: relative;
+  left: 10px;
+}
+
+.account-menu {
+  position: absolute;
+  width: 100%;
+  margin-top: 1px;
+  background: #ffffff;
+  border: 2px solid #1a6d85;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.account-menu > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.account-menu > div > span {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  color: inherit;
+}
+
+.hover-1A6D85:hover {
+  background: #0266FF;
+  color: white;
+}
+
+.hover-E73E3E:hover {
+  background: #e73e3e;
+  color: #ffffff !important;
+}
+
+.color-E73E3E {
+  color: #e73e3e !important;
+}

@@ -1,0 +1,170 @@
+.sidebar {
+  position: fixed;
+  z-index: 1000;
+  top: 7.2rem;
+  left: 0;
+  height: 100%;
+  width: 100vw;
+  translate: -100vw 0;
+  transition: all 0.4s;
+  overflow-y: scroll;
+}
+
+.sidebar-cont {
+  width: 88%;
+  background-color: #ecf1f6;
+  box-shadow: 2px 0 5px rgb(0 0 0 / 20%);
+}
+
+.sidebar.open {
+  translate: 0;
+}
+
+.close-sidebar-cont img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+
+  z-index: 999;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  padding: 4rem 3.2rem;
+  gap: 2rem;
+  border-bottom: 1.6px solid var(--primary-theme-color);
+  justify-content: space-around;
+}
+
+.user-actions .btn,
+.contact-link {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.user-actions .sign-btn,
+.contact-link {
+  color: inherit;
+}
+
+.user-actions .register-btn {
+  color: #fff;
+  background-color: var(--primary-theme-color);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.cont--1 {
+  padding: 4rem 3.2rem;
+  background-color: var(--primary-theme-color);
+  color: #fff;
+  font-size: 2rem;
+}
+
+.cont--1 p {
+  text-transform: capitalize;
+}
+
+.user-details-cont,
+.cont--2 {
+  padding: 4rem 3.2rem;
+  border-bottom: 1.6px solid var(--primary-theme-color);
+}
+
+.cont--2-head {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: inherit;
+  /* text-align: center; */
+}
+
+.shipping-quotes-cont,
+.shipping-quotes-cont--unauth {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 5.2rem;
+  row-gap: 3.2rem;
+  align-items: flex-start;
+  justify-items: center;
+}
+
+.shipping-quotes-cont--unauth {
+  grid-template-rows: 1fr;
+}
+
+.shipping-quotes-cont div {
+  width: 100%;
+}
+
+.shipping-quotes-cont .img-cont {
+  text-align: center;
+  width: 80%;
+}
+
+.shipping-quotes-cont div p {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.cont--3 .contact-link,
+.sign-out-btn {
+  padding: 4rem 3.2rem;
+  font-size: 2.6rem;
+  margin-bottom: 10rem;
+  text-decoration: none;
+}
+
+.contact-link {
+  font-size: 2rem !important;
+}
+
+.user-details {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.user-details .link {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+
+.sign-out-btn {
+  display: inline-block;
+  color: red;
+  font-weight: 600;
+  padding: 4rem 3.2rem;
+}
+
+@media (max-width: 450px) {
+  .shipping-quotes-cont div p {
+    font-size: 1.6rem;
+  }
+
+  .close-sidebar-cont img {
+    height: 24px;
+    width: 24px;
+    right: 1.4rem;
+  }
+
+  .sidebar h2 {
+    font-size: 2.2rem;
+  }
+
+  .sign-out-btn {
+    font-size: 2rem;
+  }
+}
